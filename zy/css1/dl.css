@@ -1,0 +1,81 @@
+@charset "uft-8";
+*{
+	padding:0;
+	margin:0;
+}
+.content{
+	background-image: url(../images/login_bg.jpg);
+	width: 1349px;
+	height:590px;
+	padding-top: 80px;
+}
+
+.content .jm{
+	font-size: 14px;
+	width: 330px;
+	height: 330px;
+	border: 1px solid white;
+	margin: 0px auto;
+	background-color: rgba(255,255,255,0.5);
+	/*background-color: white;*/
+	padding: 50px;
+	
+
+
+}
+.jm .l1{
+	color: #e70014;
+	font-size: 25px;
+	font-weight: bold;
+}
+.jm .i1{
+	background-image: url(../images/login_01.gif);
+    background-repeat:no-repeat;
+   background-position: 0px 5px;
+    }  
+    .jm .i4{
+    	background-image: url(../images/login_02.gif);
+      background-repeat: no-repeat;
+      background-position: 0px 5px;
+    }
+.jm .i1,.i4{
+	font-size: 14px;
+	width:325px;
+	height: 38px;
+	border: 1px solid #CCCCCC;
+	outline-color: #e70014;
+	outline-width: 1px;
+	text-indent: 50px; 
+}
+.jm .p5{
+	text-align: right;
+}
+.jm p{
+	margin-bottom: 25px;
+}
+.jm .i5{
+width: 325px;
+height: 50px;
+background-color: #e70014;
+color: white;
+font-size: 25px;
+font-weight: bold;
+outline: none;
+border: none;
+cursor: pointer;
+}
+.jm .i2,.i3{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.jm a{
+	text-decoration: none;
+	color: black;
+}
+.jm .p5 a:hover{
+	color: #e70014;
+}
+.jm .p5 span{
+	margin-left: 5px;
+	margin-right: 5px;
+}

@@ -1,0 +1,112 @@
+@charset "utf-8";
+p{
+	margin: 0px;
+     padding: 0px;
+}
+#footer{
+	margin-top:40px;
+}
+.content .wz{
+	background-color: white;
+	padding: 20px;
+	margin-bottom: 25px;
+
+}
+.content .wz a{
+	text-decoration: none;
+	color: #272727;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.content .wz a:hover{
+	color: #e70014;
+}
+.nr div{
+	border-bottom: 1px dashed #dddddd;
+	padding-bottom: 15px;
+}
+.nr{
+	width: 800px;
+	background-color: white;
+	float: left;
+	padding: 30px 30px 60px 30px;
+}
+.nr time{
+	color: #cccccc;
+	padding-right: 10px;
+}
+.nr span{
+	color: gray;
+	font-weight: bold;
+	padding-right: 15px;
+}
+.nr h1{
+	padding-bottom: 15px;
+}
+.nr .a2{
+	text-decoration: none;
+	display: inline-block;
+	float: right;
+}
+.nr .a2:hover{
+	color: #e70014;
+}
+.nr .a1{
+	text-decoration: none;
+	color: #272727;
+}
+.nr img{
+	width: 638px;
+	height: 458px;
+    margin:45px 81px 0px 81px; 
+}
+.nr p{
+	line-height: 1.8;
+	text-indent: 40px;
+
+}  
+.tz{
+	float: right;
+	width: 300px;
+	height: 291px;
+	background-color: white;
+}
+.tz span{
+  float: left;
+  font-size: 25px;
+ 
+}
+.tz div{
+	position: relative;
+	margin: 30px 30px 10px 30px;
+	border-bottom: 1px solid #DDDDDD;
+	padding-bottom:10px;
+}
+.tz .a1{
+   position: absolute;
+   bottom: 15px;
+   right: 0px;
+	float: right;
+	text-decoration: none;
+}
+.tz li{
+	margin: 10px 30px ;
+}
+
+.tz ul a{
+	text-indent: 10px;
+	 background-image: url(../images/tz_dian.gif);
+	 background-repeat: no-repeat;
+	 background-position:0px 10px;
+		overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+	display: block;
+  color: black;
+  text-decoration: none;
+  font-size: 14px;
+  }
+  .tz ul a:hover{
+  	color: #e70014;
+    transition:all 0.3s ease;
+  }
